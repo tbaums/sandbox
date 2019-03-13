@@ -4,11 +4,6 @@
   "metadata": {
     "name": "nginx",
     "namespace": "default",
-    "selfLink": "/apis/extensions/v1beta1/namespaces/default/deployments/nginx",
-    "uid": "8423f556-45c6-11e9-903d-6eaa38d1773d",
-    "resourceVersion": "3281",
-    "generation": 1,
-    "creationTimestamp": "2019-03-13T19:30:53Z",
     "labels": {
       "k8s-app": "nginx"
     },
@@ -62,30 +57,5 @@
     },
     "revisionHistoryLimit": 10,
     "progressDeadlineSeconds": 600
-  },
-  "status": {
-    "observedGeneration": 1,
-    "replicas": 1,
-    "updatedReplicas": 1,
-    "readyReplicas": 1,
-    "availableReplicas": 1,
-    "conditions": [
-      {
-        "type": "Available",
-        "status": "True",
-        "lastUpdateTime": "2019-03-13T19:30:56Z",
-        "lastTransitionTime": "2019-03-13T19:30:56Z",
-        "reason": "MinimumReplicasAvailable",
-        "message": "Deployment has minimum availability."
-      },
-      {
-        "type": "Progressing",
-        "status": "True",
-        "lastUpdateTime": "2019-03-13T19:30:56Z",
-        "lastTransitionTime": "2019-03-13T19:30:53Z",
-        "reason": "NewReplicaSetAvailable",
-        "message": "ReplicaSet \"nginx-9fd9f6579\" has successfully progressed."
-      }
-    ]
   }
 }
